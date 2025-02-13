@@ -380,48 +380,4 @@ body {
       .footer a:hover {
         color: #FF9D02;
       }
-      .subscribe-form {
-        display: flex;
-        align-items: center;
-        position: relative;
-        max-width: 100%;
-    }
-
-    .subscribe-input {
-        width: 100%;
-        padding: 12px 20px;
-        border: 2px solid orange;
-        border-radius: 30px;
-        outline: none;
-        font-size: 16px;
-        color: #555;
-        background: transparent;
-    }
-
-    .subscribe-input::placeholder {
-        color: #bbb;
-    }
-
-    .subscribe-button {
-        position: absolute;
-        right: 0;
-        background: orange;
-        border: none;
-        width: 50px;
-        height: 50px;
-        border-radius: 50%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        cursor: pointer;
-        transition: background 0.3s ease;
-    }
-
-    .subscribe-button span {
-        font-size: 24px;
-        color: white;
-    }
-
-    .subscribe-button:hover {
-        background: darkorange;
-    }
+      
